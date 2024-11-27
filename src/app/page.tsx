@@ -9,7 +9,7 @@ export default function Home (){
           <h1 className="font-sans font-extrabold text-4xl lg:text-5xl tracking-wide leading-[50px] text-white">Muhammad Anus</h1>
           <h3 className="font-sans font-bold text-lg lg:text-3xl text-cyan-600 ">Front-End Developer</h3>
           <p className="font-sans font-medium lg:font-semibold px-[0px] text-white">Welcome to my personal portfolio! I am a Front-End Developer with one year experience in building responsive and dynamic web applications.</p>
-          <button className="w-[200px] h-[50px] bg-blue-400 hover:bg-blue-700 text-white rounded-xl font-sans font-bold lg:font-extrabold py-[10px] px-[10px] text-nowrap"><a href="/cv.pdf" download="CV-Anas">Download CV</a></button>
+          <button className="w-[200px] h-[50px] bg-blue-400 hover:bg-blue-700 text-white rounded-xl font-sans font-bold lg:font-extrabold py-[10px] px-[10px] text-nowrap">Download CV</button>
         </div>
         <div >
            <Image className="w-[300px] h-[300px] lg:w-[800px] lg:h-[300px]  border-[6px] rounded-full lg:rounded-lg" src={profile} alt="profile"></Image>

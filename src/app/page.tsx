@@ -1,6 +1,5 @@
 import Image from "next/image";
 import profile from "../../image/profile.jpeg";
-import Link from "next/link";
 export default function Home (){
   return(
     <div>

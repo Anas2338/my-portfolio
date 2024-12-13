@@ -23,14 +23,12 @@ export default function Navbar (){
             </div>
             <div className={`w-screen h-auto gap-10 items-center bg-blue-900 py-5 absolute top-[35px] flex flex-col ${!Open && "hidden"} sm:hidden `}>
                 <div onClick={closeMenu} className=" hover:text-blue-600"><Link href={"./"}>Home</Link></div>
-                <div onClick={closeMenu} className=" hover:text-blue-600"><Link href={"/about"}>About</Link></div>
                 <div onClick={closeMenu} className=" hover:text-blue-600"><Link href={"/education"}>Education</Link></div>
                 <div onClick={closeMenu} className=" hover:text-blue-600"><Link href={"/skill"}>Skill</Link></div>
                 <div onClick={closeMenu} className=" hover:text-blue-600"><Link href={"/contact"}>Contact</Link></div>
             </div>
             <div className="hidden  sm:text-lg sm:font-sans sm:font-medium sm:flex sm:flex-row sm:gap-9">
                 <div className=" hover:text-blue-600"><Link href={"./"} >Home</Link></div>
-                <div className=" hover:text-blue-600"><Link href={"/about"}>About</Link></div>
                 <div className=" hover:text-blue-600"><Link href={"/education"}>Education</Link></div>
                 <div className=" hover:text-blue-600"><Link href={"/skill"}>Skill</Link></div>
                 <div className=" hover:text-blue-600"><Link href={"/contact"}>Contact</Link></div>
